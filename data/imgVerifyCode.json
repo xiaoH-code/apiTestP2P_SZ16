@@ -1,0 +1,24 @@
+{
+    "get_img_verify_code":[
+        {
+            "desc":"参数为随机小数,获取图片验证码成功",
+            "type":"float",
+            "status":200
+        },
+        {
+            "desc":"参数为随机整数,获取图片验证码成功",
+            "type":"int",
+            "status":200
+        },
+        {
+            "desc":"参数为随机字母,获取图片验证码失败",
+            "type":"char",
+            "status":400
+        },
+        {
+            "desc":"参数为空,获取图片验证码失败",
+            "type":"kong",
+            "status":404
+        }
+    ]
+}

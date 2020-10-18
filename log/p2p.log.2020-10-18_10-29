@@ -1,0 +1,34 @@
+2020-10-18 10:28:35,704 ERROR [root] [__init__.py(<module>:5)] - error
+2020-10-18 10:28:35,707 INFO [root] [__init__.py(<module>:6)] - info
+2020-10-18 10:28:36,215 INFO [root] [login.py(setUpClass:16)] - sql1 = DELETE i.* from mb_member_info i INNER JOIN mb_member m ON i.member_id = m.id where m.phone in ('13011231111','13011231112','13011231113','13011231114','13011231115');
+2020-10-18 10:28:36,433 INFO [root] [login.py(setUpClass:20)] - sql2 = DELETE l.* from mb_member_login_log l INNER JOIN mb_member m on l.member_id = m.id where m.phone in ('13011231111','13011231112','13011231113','13011231114','13011231115');
+2020-10-18 10:28:36,631 INFO [root] [login.py(setUpClass:24)] - sql3 = DELETE from mb_member where phone in ('13011231111','13011231112','13011231113','13011231114','13011231115');
+2020-10-18 10:28:36,824 INFO [root] [login.py(setUpClass:28)] - sql4 = DELETE from mb_member_register_log where phone in ('13011231111','13011231112','13011231113','13011231114','13011231115');
+2020-10-18 10:28:37,243 INFO [root] [login.py(test04_get_img_code_fail_random_char:71)] - r = jbigefna
+2020-10-18 10:28:37,590 INFO [root] [login.py(test05_get_sms_code_success:91)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2020-10-18 10:28:37,810 INFO [root] [login.py(test06_get_sms_code_fail_img_code_wrong:109)] - get sms code response = {'status': 100, 'description': '图片验证码错误'}
+2020-10-18 10:28:38,030 INFO [root] [login.py(test07_get_sms_code_fail_img_code_is_null:127)] - get sms code response = {'status': 100, 'description': '图片验证码错误'}
+2020-10-18 10:28:38,244 INFO [root] [login.py(test08_get_sms_code_fail_phone_is_null:144)] - get sms code response = {'status': 100}
+2020-10-18 10:28:38,373 INFO [root] [login.py(test09_get_sms_code_fail_no_img_code:156)] - get sms code response = {'status': 100, 'description': '图片验证码错误'}
+2020-10-18 10:28:38,593 INFO [root] [login.py(test10_register_success_param_must:174)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2020-10-18 10:28:38,684 INFO [root] [login.py(test10_register_success_param_must:181)] - get register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-10-18 10:28:38,901 INFO [root] [login.py(test11_register_success_param_all:199)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2020-10-18 10:28:38,993 INFO [root] [login.py(test11_register_success_param_all:206)] - get register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-10-18 10:28:39,202 INFO [root] [login.py(test12_register_fail_phone_is_exist:224)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2020-10-18 10:28:39,273 INFO [root] [login.py(test12_register_fail_phone_is_exist:231)] - get register response = {'status': 100, 'description': '手机已存在!'}
+2020-10-18 10:28:39,499 INFO [root] [login.py(test13_register_fail_password_is_null:249)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2020-10-18 10:28:39,591 INFO [root] [login.py(test13_register_fail_password_is_null:256)] - get register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-10-18 10:28:39,819 INFO [root] [login.py(test14_register_fail_img_code_wrong:274)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2020-10-18 10:28:39,889 INFO [root] [login.py(test14_register_fail_img_code_wrong:281)] - get register response = {'status': 100, 'description': '验证码错误!'}
+2020-10-18 10:28:40,106 INFO [root] [login.py(test15_register_fail_sms_code_wrong:299)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2020-10-18 10:28:40,176 INFO [root] [login.py(test15_register_fail_sms_code_wrong:306)] - get register response = {'status': 100, 'description': '验证码错误'}
+2020-10-18 10:28:40,405 INFO [root] [login.py(test16_register_fail_no_promission:324)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2020-10-18 10:28:40,499 INFO [root] [login.py(test16_register_fail_no_promission:331)] - get register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-10-18 10:28:40,647 INFO [root] [login.py(test17_login_success:341)] - get login response = {'status': 200, 'description': '登录成功'}
+2020-10-18 10:28:41,078 INFO [root] [login.py(test18_login_fail_phone_is_not_exist:351)] - get login response = {'status': 100, 'description': '用户不存在'}
+2020-10-18 10:28:41,221 INFO [root] [login.py(test19_login_fail_pwd_is_null:361)] - get login response = {'status': 100, 'description': '密码不能为空'}
+2020-10-18 10:28:41,364 INFO [root] [login.py(test20_login_fail_pwd_is_wrong:372)] - get login response = {'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2020-10-18 10:28:41,439 INFO [root] [login.py(test20_login_fail_pwd_is_wrong:379)] - get login response = {'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2020-10-18 10:28:41,516 INFO [root] [login.py(test20_login_fail_pwd_is_wrong:386)] - get login response = {'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2020-10-18 10:28:41,590 INFO [root] [login.py(test20_login_fail_pwd_is_wrong:393)] - get login response = {'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2020-10-18 10:29:41,678 INFO [root] [login.py(test20_login_fail_pwd_is_wrong:401)] - get login response = {'status': 200, 'description': '登录成功'}

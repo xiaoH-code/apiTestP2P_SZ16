@@ -1,0 +1,8 @@
+2020-10-18 15:33:44,039 ERROR [root] [__init__.py(<module>:5)] - error
+2020-10-18 15:33:44,041 INFO [root] [__init__.py(<module>:6)] - info
+2020-10-18 15:34:21,798 ERROR [root] [__init__.py(<module>:5)] - error
+2020-10-18 15:34:21,799 INFO [root] [__init__.py(<module>:6)] - info
+2020-10-18 15:35:02,688 ERROR [root] [__init__.py(<module>:5)] - error
+2020-10-18 15:35:02,688 INFO [root] [__init__.py(<module>:6)] - info
+2020-10-18 15:36:09,670 ERROR [root] [__init__.py(<module>:5)] - error
+2020-10-18 15:36:09,670 INFO [root] [__init__.py(<module>:6)] - info
